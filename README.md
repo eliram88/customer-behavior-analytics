@@ -26,11 +26,12 @@
 - 🌐 اپ Streamlit (`app/app.py`)
 - 📋 تحلیل عددی + نمودارها (Jupyter Notebook)
 
-## 🎯 برای اجرای اپ Streamlit:
+## 🎯 اجرای اپ Streamlit:
 
 ```bash
 pip install -r app/requirements.txt
 streamlit run app/app.py
- لینک مستقسم: https://cbanalytics.streamlit.app/
+### 🌐 [اجرای اپ آنلاین در Streamlit Cloud]:
+https://cbanalytics.streamlit.app/
 
 📌 پروژه Data Analyst / Data Science Intern
