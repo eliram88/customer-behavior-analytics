@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # خواندن داده
-df = pd.read_csv('rfm_clusters.csv')
+df = pd.read_csv('data/rfm_clusters.csv')
 
 st.title("📊 داشبورد تحلیلی مشتریان")
 
