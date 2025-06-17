@@ -31,8 +31,8 @@
 ```bash
 pip install -r app/requirements.txt
 streamlit run app/app.py
-
- 🌐 [اجرای اپ آنلاین در Streamlit Cloud]:
+```
+ ### 🌐 اجرای اپ آنلاین در Streamlit Cloud:
 https://cbanalytics.streamlit.app/
 
 
