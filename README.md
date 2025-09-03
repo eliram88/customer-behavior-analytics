@@ -15,7 +15,7 @@ Result: https://cbanalytics.streamlit.app
 - Power BI (interactive dashboard)
 - GitHub for version control
 
-## 📈 Progect Workflow
+## 📈 Project Workflow
 
 
 1. Data cleaning & preparation (Online Retail dataset)
@@ -75,4 +75,5 @@ This project was developed by a data analysis and machine learning enthusiast wi
 - Building a professional portfolio project
 - Practicing real-world analytics & modeling
 - Gaining hands-on experience with interactive dashboards and app deployment
+
 
