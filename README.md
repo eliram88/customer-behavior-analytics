@@ -1,72 +1,77 @@
 ![cover](cover.png)
 
-# Customer Segmentation & Lifetime Value Prediction 🧠
+# 🧠 Customer Segmentation & Lifetime Value Prediction
 
-🎯 هدف پروژه: تحلیل رفتاری مشتریان یک فروشگاه آنلاین و پیش‌بینی ارزش طول عمر آن‌ها جهت بهینه‌سازی بازاریابی
+🎯 Project goal: Analyzing customer behavior for an online retail store and predicting Customer Lifetime Value (CLV) to optimize marketing strategies.
 
-
-دیتاست : https://archive.ics.uci.edu/dataset/352/online+retail
-
-خروجی: https://cbanalytics.streamlit.app
+Dataset: [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail)
+Result: https://cbanalytics.streamlit.app
 
 
-## 🔧 ابزارهای استفاده‌شده
+## 🔧 Tools & Libraries
 
 - Python (Pandas, Scikit-learn, Streamlit)
 - Excel
-- Power BI (داشبورد تعاملی)
+- Power BI (interactive dashboard)
 - GitHub for version control
 
-## 📈 مراحل پروژه
+## 📈 Progect Workflow
 
-1. آماده‌سازی و پاک‌سازی داده‌ها (Online Retail dataset)
-2. ساخت مدل RFM برای گروه‌بندی مشتریان
-3. خوشه‌بندی با KMeans و تحلیل هر خوشه
-4. ساخت مدل پیش‌بینی برای شناسایی مشتریان خاموش
-5. طراحی داشبورد با Power BI و اپ تعاملی با Streamlit
 
-## 🚀 خروجی‌ها
+1. Data cleaning & preparation (Online Retail dataset)
+2. Building RFM model for customer segmentation
+3. Clustering with KMeans and analyzing each segment
+4. Predictive modeling for identifying churn customers
+5. Designing dashboards with Power BI and an interactive app with Streamlit
 
-- فایل RFM نهایی: `data/rfm_clusters.csv` 
-- 📊 داشبورد Power BI (`dashboard.pbix`)
-- 🌐 اپ Streamlit (`app/app.py`)
-- 📋 تحلیل عددی + نمودارها (Jupyter Notebook)
 
-## 🎯 برای اجرای اپ Streamlit:
+## 🚀 Outputs
+
+📂 Final RFM dataset → data/rfm_clusters.csv
+📊 Interactive Dashboard → dashboard/dashboard.pbix
+🌐 Streamlit App → app/app.py
+📋 Analytical results & visualizations → Jupyter Notebook
+
+
+## 🎯 Run the Streamlit App
 
 ```bash
 pip install -r app/requirements.txt
 streamlit run app/app.py
 ```
 
-### 🌐 اجرای اپ آنلاین در Streamlit Cloud:
-https://cbanalytics.streamlit.app/
+
+### 🌐 Online App
+
+[Streamlit Cloud Deployment](https://cbanalytics.streamlit.app/)
 
 
-## 📁 ساختار فایل‌ها
+
+## 📁 Project Structure
 ```bash
 customer-clustering-project/
 │
 ├── 📁 data/
-│   └── rfm_clusters.csv              # دیتای نهایی
+│   └── rfm_clusters.csv              #  Final dataset
 │
 ├── 📁 notebook/
-│   └── analysis_rfm.ipynb           # تحلیل داده و مدل‌سازی (Jupyter Notebook)
+│   └── analysis_rfm.ipynb           # Data analysis & modeling (Jupyter Notebook)
 │
 ├── 📁 app/
-│   └── app.py                       # اپ Streamlit
-│   └── requirements.txt             # لیست کتابخانه‌ها
+│   └── app.py                       # Streamlit app
+│   └── requirements.txt             # Dependencies
 │
 ├── 📁 dashboard/
-│   └── dashboard.pbix               # فایل Power BI
-│   └── dashboard-screenshot.png     # تصویر داشبورد نهایی
+│   └── dashboard.pbix               # Power BI dashboard
+│   └── dashboard-screenshot.png     # Dashboard screenshot
 │
-├── 📄 README.md                     # توضیح پروژه (همین فایل)
+├── 📄 README.md                     # Project documentation
 ```
 
-## 🧑‍💻 توسعه‌دهنده
+## 🧑‍💻 Developer
 
-این پروژه توسط یک علاقه‌مند به تحلیل داده و یادگیری ماشین طراحی و اجرا شده  
-با هدف شرکت در موقعیت "کارآموز تحلیلگر داده / دیتا ساینتیست".
+This project was developed by a data analysis and machine learning enthusiast with the goal of:
 
-✨ هدف: توسعه نمونه کار قابل ارائه، تمرین تحلیل واقعی، یادگیری مدل‌سازی حرفه‌ای و تفسیر مدل
+- Building a professional portfolio project
+- Practicing real-world analytics & modeling
+- Gaining hands-on experience with interactive dashboards and app deployment
