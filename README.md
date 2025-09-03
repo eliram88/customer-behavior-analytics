@@ -4,7 +4,7 @@
 
 🎯 Project goal: Analyzing customer behavior for an online retail store and predicting Customer Lifetime Value (CLV) to optimize marketing strategies.
 
-Dataset: [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail)
+Dataset: [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/dataset/352/online+retail)  
 Result: https://cbanalytics.streamlit.app
 
 
@@ -75,3 +75,4 @@ This project was developed by a data analysis and machine learning enthusiast wi
 - Building a professional portfolio project
 - Practicing real-world analytics & modeling
 - Gaining hands-on experience with interactive dashboards and app deployment
+
